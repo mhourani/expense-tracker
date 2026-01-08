@@ -1,0 +1,18 @@
+# Claude Code - Personal Files
+# These files should not be committed to version control
+
+# Chat history and personal conversations
+chat-history/
+*.chat.md
+
+# Personal drafts and notes
+drafts/
+notes/
+
+# Environment variables and secrets
+.env
+*.secret
+
+# Temporary files
+*.tmp
+.DS_Store

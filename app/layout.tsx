@@ -10,7 +10,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "ExpenseTracker - Manage Your Finances",
-  description: "A modern expense tracking application to help you manage your personal finances",
+  description:
+    "A modern expense tracking application to help you manage your personal finances",
 };
 
 export default function RootLayout({
@@ -22,9 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} font-sans antialiased bg-gray-50`}>
         <Header />
-        <main className="min-h-screen">
-          {children}
-        </main>
+        <main className="min-h-screen">{children}</main>
       </body>
     </html>
   );
